@@ -1,0 +1,18 @@
+.formGroup {
+  display: flex;
+  gap: var(--mantine-spacing-sm);
+  margin-top: 40px;
+}
+
+.formGroup > * {
+  flex-grow: 1;
+}
+@media (max-width: 768px) {
+  .formGroup {
+    flex-direction: column;
+    width: 100%;
+  }
+  .input {
+    width: 100%;
+  }
+}

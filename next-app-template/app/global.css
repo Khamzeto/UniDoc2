@@ -1,0 +1,14 @@
+@media (min-width: 800px) {
+  .grid {
+    padding-left: 400px;
+  }
+  .grid {
+    padding-left: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .flex-cards {
+    flex-direction: column;
+  }
+}
